@@ -6,16 +6,22 @@ whole entry is this one line: a setup, then a turn, with the punchline
 last. The line is fixed text, written byte-identical with no trailing
 newline, and must stay within the gate of 1 to 200 characters.
 
-Draft line (to be replaced by the proxy-judge winner before submit):
-the 4:59 "got a minute" ambush, the longest minute in the office.
+Draft line (replaced by the proxy-judge winner before submit):
+the exit interview, three years too late — the retention
+conversation held only once the employee is already leaving.
+The winning line beat every other finalist head to head in a
+proxy-judge round-robin (DeepSeek v4.1-flash, the competition's
+published brief, house scoring): overall 0.725 across 6 games,
+beating MICROWAVE 0.80, BADGE 0.65 and FIREDRILL 0.80, and
+splitting the strongest field joke (reply-all, 0.50).
 """
 
 import os
 import sys
 
 JOKE = (
-    "At 4:59 my boss always asks if I've 'got a minute' — it's the "
-    "longest minute in the known universe, and it ends at 6:30."
+    "In my exit interview HR asked what would have kept me, and I "
+    "said 'this interview, three years ago'."
 )
 
 
